@@ -1,0 +1,365 @@
+﻿td.details-control {
+    text-align:center;
+    color:forestgreen;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    text-align:center; 
+    color:red;
+}
+#header {
+	text-align: left;
+    }
+.title {
+    float: right;
+	width: 1760px;
+	height: 70px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border: 1px solid black;
+	background: white;
+	font-family: Futura Md BT;
+	text-align: center;
+	font-size: 35pt;
+
+}
+#homepage {
+	width: 1800px;
+	margin-top: 1%;
+	border: 1px solid black;
+	background: white;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.container1 {
+    float: right;
+	width: 1300px;
+	height:30px;
+	margin-right: 345px;
+	/*margin-top: 5px;*/
+	background: white;
+	font-family: Futura Md BT;
+	font-size: 10pt;
+}
+#container3 {
+    float: right;
+	width: 1760px;
+	margin-right: 20px;
+	margin-top: 5px;
+	background: white;
+	font-family: Futura Md BT;
+	font-size: 10pt;
+}
+
+.container2 {
+    float: right;
+	width: 1760px;
+	margin-right: 20px;
+	margin-top: 5px;
+	border: 1px solid black;
+	background: white;
+	font-family: Futura Md BT;
+	font-size: 10pt;
+}
+
+.container3 {
+	float: right;
+	width: 1760px;
+	height: 25px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border: 1px solid black;
+	background: white;
+	font-family: Futura Bk BT;
+	font-size: 10pt;
+	color: red;
+	text-align: center;
+}
+
+.toolButton {
+	height: 20px;
+	font-size: 8pt;
+	color: black;
+	background: rgb(240, 240, 240);
+	border: 1px solid black;
+}
+#addRow {
+    float: right;
+}
+#logoutbutton {
+    float: right;
+}
+#loginbutton {
+    float: right;
+}
+#reportrange {
+	height: 40px;
+	font-size: 10pt;
+	color: black;
+	background: rgb(240, 240, 240);
+	border: 1px solid black;
+}
+/*
+table.display {
+	table-layout:fixed;
+}*/
+
+/*#addRow {
+		margin-left: 60%;
+}*/
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#login {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+#loginn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 450px; /* Could be more or less, depending on screen size */
+}
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 350px; /* Could be more or less, depending on screen size */
+}
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal2-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 700px; /* Could be more or less, depending on screen size */
+}
+.modal2-content2 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 14%; /* Could be more or less, depending on screen size */
+}
+#uname {
+    width: 20%;
+}
+#psw {
+    width: 20%;
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+#show:hover,
+#show:focus {
+  color: green;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+tr[id]{
+  display : none;
+}
+
+#hrt {
+	border-collapse: collapse;
+	width: 100%;
+	text-align:left;
+}
+#hrt td, #hrt th {
+	border: 1px solid #ddd;
+	font-size:9pt;
+}
+#hrt th {
+  text-align: left;
+	background-color: #70AD47;
+	color: white;
+}
+
+#hro {
+	border-collapse: collapse;
+	width: 100%;
+	text-align:left;
+}
+#hro td, #hro th {
+	border: 1px solid #ddd;
+	font-size:9pt;
+}
+#hro th {
+  text-align: left;
+	background-color: #70AD47;
+	color: white;
+}
+
+#mgr {
+	border-collapse: collapse;
+	width: 100%;
+	text-align:left;
+}
+#mgr td, #mgr th {
+	border: 1px solid #ddd;
+	font-size:9pt;
+}
+#mgr th {
+  text-align: left;
+	background-color: #70AD47;
+	color: white;
+}
+
+#gm {
+	border-collapse: collapse;
+	width: 100%;
+	text-align:left;
+}
+#gm td, #gm th {
+	border: 1px solid #ddd;
+	font-size:9pt;
+}
+#gm th {
+  text-align: left;
+	background-color: #70AD47;
+	color: white;
+}
+
+#adm {
+	border-collapse: collapse;
+	width: 100%;
+	text-align:left;
+}
+#adm td, #adm th {
+	border: 1px solid #ddd;
+	font-size:9pt;
+}
+#adm th {
+  text-align: left;
+	background-color: #70AD47;
+	color: white;
+}

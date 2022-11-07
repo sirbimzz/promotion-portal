@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GetUser.aspx.cs" Inherits="UniversalMSAccess.GetData" %>
